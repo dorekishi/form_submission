@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% extends 'navbar.html' %}
+{% block content %}
+{% load static %}
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>MIGUEL | HOME |</title>
+        <link rel="stylesheet" href="{% static 'mig/styles.css' %}">
+    </head>
+    <body>
+
+
+        <div class="frame">
+            <main>
+                <h1>Send Me Questions!</h1>
+                <form class="frame" action="https://formsubmit.co/mdmoreno2006@gmail.com" method="POST">
+                <div class="question">
+                    <h3>Name:</h3><input type="text" name="name" required>
+                </div>
+                <div class="question">
+                    <h3>Email:</h3><input type="email" name="email" required>
+                </div>
+                <div class="question">
+                    <h3>Question:</h3><input type="email" name="email" required>
+                </div>
+                <div class="submit"
+                    <button type="submit">Submit Form</button>
+                </div>
+                </form>
+
+            </main>
+            <footer>
+                <ul>
+                    <li>
+                        <a id="ig-link" href="https://www.instagram.com/dorekishi" target="_blank"><img class="logo" src="{% static 'mig/ig-logo.png' %}" alt="ig-logo"></a>
+                    </li>
+                    <li>
+                        <a id="li-link" href="https://www.linkedin.com/in/dorekishi/" target="_blank"><img class="logo" src="{% static 'mig/li-logo.png' %}" alt="li-logo"></a>
+                    </li>
+                    <li>
+                        <a id="sc-link" href="https://soundcloud.com/dorekishi" target="_blank"><img class="logo" src="{% static 'mig/sc-logo.png' %}" alt="sc-logo"></a>
+                    </li>
+                    <li>
+                        <p id="est">Est. 2025</p>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
+
+{% endblock content %}
