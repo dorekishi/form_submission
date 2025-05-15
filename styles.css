@@ -1,0 +1,109 @@
+body {
+    background-color: #dbcccc;
+    font-family: Arial;
+    color: #451b04;
+}
+
+.splat-logo {
+    width: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #c4bd8b;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1600px;
+    border-radius: 20px;
+}
+
+li {
+    display: inline;
+}
+
+li p{
+    display: inline;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    display: block;
+    float: right;
+    color: #6C3BAA;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 20px;
+    padding-top: 50px;
+    margin-right: 80px;
+}
+
+.frame {
+    background-color: #c4bd8b;
+    margin:100px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.selfie {
+    border: 5px solid #451b04;
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+    position: center;
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+hr {
+    background-color: #451b04;
+    border-color: #451b04;
+}
+
+.frame h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.frame h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+#info {
+    text-align: left;
+    font-size: 60px;
+}
+
+.logo {
+    width: 80px;
+    margin: 10px;
+    padding: 0;
+}
+
+#ig-link {
+    color: #6C3BAA;
+    text-decoration: None;
+    font-size: 30px;
+}
+
+#est {
+    text-decoration: italic;
+    font-size: 40px
+}
